@@ -1,4 +1,4 @@
-let arr1 = ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
+let enArr = ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
   'Tab', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', '\\', 'Del',
   'CapsLock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", 'Enter',
   'Shift', '\\', 'z', 'x', 'c', 'v', 'b', 'n', 'm', '.', ',', '/', '↑', 'Shift1',
@@ -18,16 +18,26 @@ let shiftCapsArrayEn = ['~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '
   'CapsLock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ':', '"', 'Enter',
   'Shift', '|', 'z', 'x', 'c', 'v', 'b', 'n', 'm', '<', '>', '?', '↑', 'Shift',
   'CtrlL', 'Win', 'AltL', 'Space', 'AltR', 'CtrlR', '←', '↓', '→'];
-// let ruArr = ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
-//   'Tab', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', '[', ']', '\\', 'Del',
-//   'Caps Lock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'Enter',
-//   'Shift', '\\', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '/', '↑', 'Shift1',
-//   'Ctrl', 'Win', 'Alt', 'Space', 'Alt', 'Ctrl', '←', '↓', '→'];
-// let shiftArrayru = ['ё', '!', '"', '№', ';', '%', ':', '?', '*', '(', ')', '_', '+', 'Backspace',
-//   'Tab', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', '\\', 'Del',
-//   'Caps Lock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'Enter',
-//   'Shift', '\\', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', ',', '↑', 'Shift',
-//   'CtrlL', 'Win', 'AltL', 'Space', 'AltR', 'CtrlR', '←', '↓', '→'];
+let ruArr = ['ё', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
+  'Tab', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', '[', ']', '\\', 'Del',
+  'CapsLock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'Enter',
+  'Shift', '\\', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '/', '↑', 'Shift1',
+  'CtrlL', 'Win', 'AltL', 'Space', 'AltR', 'CtrlR', '←', '↓', '→'];
+let shiftCapsArrayRu = ['ё', '!', '"', '№', ';', '%', ':', '?', '*', '(', ')', '_', '+', 'Backspace',
+  'Tab', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', '/', 'Del',
+  'CapsLock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'Enter',
+  'Shift', '/', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', ',', '↑', 'Shift',
+  'CtrlL', 'Win', 'AltL', 'Space', 'AltR', 'CtrlR', '←', '↓', '→'];
+let shiftArrayRu = ['Ё', '!', '"', '№', ';', '%', ':', '?', '*', '(', ')', '_', '+', 'Backspace',
+  'Tab', 'Й', 'Ц', 'У', 'К', 'Е', 'Н', 'Г', 'Ш', 'Щ', 'З', 'Х', 'Ъ', '/', 'Del',
+  'CapsLock', 'Ф', 'Ы', 'В', 'А', 'П', 'Р', 'О', 'Л', 'Д', 'Ж', 'Э', 'Enter',
+  'Shift', '/', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю', ',', '↑', 'Shift',
+  'CtrlL', 'Win', 'AltL', 'Space', 'AltR', 'CtrlR', '←', '↓', '→'];
+let capsLockArrayRu = ['Ё', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
+  'Tab', 'Й', 'Ц', 'У', 'К', 'Е', 'Н', 'Г', 'Ш', 'Щ', 'З', 'Х', 'Ъ', '\\', 'Del',
+  'CapsLock', 'Ф', 'Ы', 'В', 'А', 'П', 'Р', 'О', 'Л', 'Д', 'Ж', 'Э', 'Enter',
+  'Shift', '\\', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю', ',', '↑', 'Shift',
+  'CtrlL', 'Win', 'AltL', 'Space', 'AltR', 'CtrlR', '←', '↓', '→'];
 let keyboardLang = localStorage.getItem('keyboardLanguage') || 'en';
 let shiftState = false;
 let capsState = false;
@@ -40,12 +50,96 @@ const pressHandler = (e) => {
   if (e.code === 'CapsLock' && e.type === 'keydown') capsState = !capsState;
   if ((e.code === 'ShiftLeft' || e.code === 'ShiftRight') && e.type === 'keydown') shiftState = true;
   if ((e.code === 'ShiftLeft' || e.code === 'ShiftRight') && e.type === 'keyup') shiftState = false;
+  if (e.ctrlKey && e.altKey) {
+    if (keyboardLang === 'en') {
+      keyboardLang = 'ru';
+    } else keyboardLang = 'en';
+  }
   allKey.forEach((element, i) => {
-    if (e.key === element.id && e.type === 'keydown' && element.id !== 'CapsLock') {
+    if ((e.key === element.id || e.key === element.id.toUpperCase()) && e.type === 'keydown' && element.id !== 'CapsLock') {
       element.classList.add('active');
     }
-    if (e.key === element.id && e.type === 'keyup' && element.id !== 'CapsLock') {
+    if ((e.code === 'ControlLeft') && element.id === 'CtrlL' && e.type === 'keydown') {
+      element.classList.add('active');
+    }
+    if (e.code === 'ControlLeft' && element.id === 'CtrlL' && e.type === 'keyup') {
       element.classList.remove('active');
+    }
+    if ((e.code === 'MetaLeft') && element.id === 'Win' && e.type === 'keydown') {
+      element.classList.add('active');
+    }
+    if (e.code === 'MetaLeft' && element.id === 'Win' && e.type === 'keyup') {
+      element.classList.remove('active');
+    }
+    if ((e.code === 'AltLeft') && element.id === 'AltL' && e.type === 'keydown') {
+      element.classList.add('active');
+    }
+    if (e.code === 'AltLeft' && element.id === 'AltL' && e.type === 'keyup') {
+      element.classList.remove('active');
+    }
+    if ((e.code === 'AltRight') && element.id === 'AltR' && e.type === 'keydown') {
+      element.classList.add('active');
+    }
+    if (e.code === 'AltRight' && element.id === 'AltR' && e.type === 'keyup') {
+      element.classList.remove('active');
+    }
+    if ((e.code === 'Space') && element.id === 'Space' && e.type === 'keydown') {
+      element.classList.add('active');
+    }
+    if (e.code === 'Space' && element.id === 'Space' && e.type === 'keyup') {
+      element.classList.remove('active');
+    }
+    if ((e.code === 'ControlRight') && element.id === 'CtrlR' && e.type === 'keydown') {
+      element.classList.add('active');
+    }
+    if (e.code === 'ControlRight' && element.id === 'CtrlR' && e.type === 'keyup') {
+      element.classList.remove('active');
+    }
+    if ((e.key === element.id || e.key === element.id.toUpperCase()) && e.type === 'keyup' && element.id !== 'CapsLock') {
+      element.classList.remove('active');
+    }
+    if (e.ctrlKey && e.altKey) {
+      if (element.id !== 'CapsLock'
+        && element.id !== 'Tab'
+        && element.id !== 'Shift'
+        && element.id !== 'Shift1'
+        && element.id !== 'CtrlL'
+        && element.id !== 'CtrlR'
+        && element.id !== 'AltL'
+        && element.id !== 'AltR'
+        && element.id !== 'Win'
+        && element.id !== 'Space'
+        && element.id !== 'Backspace'
+        && element.id !== 'Del'
+        && element.id !== 'Enter') {
+        if (keyboardLang === 'ru') {
+          if (!shiftState && !capsState) {
+            element.textContent = ruArr[i];
+          }
+          if (shiftState && !capsState) {
+            element.textContent = shiftArrayRu[i];
+          }
+          if (!shiftState && capsState) {
+            element.textContent = capsLockArrayRu[i];
+          }
+          if (shiftState && capsState) {
+            element.textContent = shiftCapsArrayRu[i];
+          }
+        } else {
+          if (!shiftState && !capsState) {
+            element.textContent = enArr[i];
+          }
+          if (shiftState && !capsState) {
+            element.textContent = shiftArrayEn[i];
+          }
+          if (!shiftState && capsState) {
+            element.textContent = capsLockArrayEn[i];
+          }
+          if (shiftState && capsState) {
+            element.textContent = shiftCapsArrayEn[i];
+          }
+        }
+      }
     }
     if (e.code === 'CapsLock' && e.type === 'keydown' && element.id === 'CapsLock') element.classList.toggle('enabled');
     if (e.code === 'CapsLock' && e.type === 'keydown') {
@@ -62,27 +156,47 @@ const pressHandler = (e) => {
         && element.id !== 'Backspace'
         && element.id !== 'Del'
         && element.id !== 'Enter') {
-        if (capsState && shiftState) {
-          // eslint-disable-next-line no-param-reassign
-          element.textContent = shiftCapsArrayEn[i];
-        }
-        if (capsState && !shiftState) {
-          // eslint-disable-next-line no-param-reassign
-          element.textContent = capsLockArrayEn[i];
-        }
-        if (!capsState && !shiftState) {
-          // eslint-disable-next-line no-param-reassign
-          element.textContent = arr1[i];
-        }
-        if (!capsState && shiftState) {
-          // eslint-disable-next-line no-param-reassign
-          element.textContent = shiftArrayEn[i];
+        if (keyboardLang === 'en') {
+          if (capsState && shiftState) {
+            // eslint-disable-next-line no-param-reassign
+            element.textContent = shiftCapsArrayEn[i];
+          }
+          if (capsState && !shiftState) {
+            // eslint-disable-next-line no-param-reassign
+            element.textContent = capsLockArrayEn[i];
+          }
+          if (!capsState && !shiftState) {
+            // eslint-disable-next-line no-param-reassign
+            element.textContent = enArr[i];
+          }
+          if (!capsState && shiftState) {
+            // eslint-disable-next-line no-param-reassign
+            element.textContent = shiftArrayEn[i];
+          }
+        } else {
+          if (!shiftState && !capsState) {
+            element.textContent = ruArr[i];
+          }
+          if (shiftState && !capsState) {
+            element.textContent = shiftArrayRu[i];
+          }
+          if (!shiftState && capsState) {
+            element.textContent = capsLockArrayRu[i];
+          }
+          if (shiftState && capsState) {
+            element.textContent = shiftCapsArrayRu[i];
+          }
         }
       }
     }
     if (e.shiftKey && capsState) {
-      // eslint-disable-next-line no-param-reassign
-      element.textContent = shiftCapsArrayEn[i];
+      if (keyboardLang === 'en') {
+        // eslint-disable-next-line no-param-reassign
+        element.textContent = shiftCapsArrayEn[i];
+      } else {
+        // eslint-disable-next-line no-param-reassign
+        element.textContent = shiftCapsArrayRu[i];
+      }
       // eslint-disable-next-line no-param-reassign
       if (element.id === 'Shift' || element.id === 'Shift1') element.textContent = 'Shift';
       // eslint-disable-next-line no-param-reassign
@@ -93,8 +207,12 @@ const pressHandler = (e) => {
       if (element.id === 'Space') element.textContent = ' ';
     }
     if (!e.shiftKey && !capsState && (e.code === 'ShiftLeft' || e.code === 'ShiftRight')) {
-      // eslint-disable-next-line no-param-reassign
-      element.textContent = arr1[i];
+      if (keyboardLang === 'en') {
+        // eslint-disable-next-line no-param-reassign
+        element.textContent = enArr[i];
+      } else {
+        element.textContent = ruArr[i];
+      }
       // eslint-disable-next-line no-param-reassign
       if (element.id === 'Shift' || element.id === 'Shift1') element.textContent = 'Shift';
       // eslint-disable-next-line no-param-reassign
@@ -105,8 +223,12 @@ const pressHandler = (e) => {
       if (element.id === 'Space') element.textContent = ' ';
     }
     if (!e.shiftKey && capsState && (e.code === 'ShiftLeft' || e.code === 'ShiftRight')) {
-      // eslint-disable-next-line no-param-reassign
-      element.textContent = capsLockArrayEn[i];
+      if (keyboardLang === 'en') {
+        // eslint-disable-next-line no-param-reassign
+        element.textContent = capsLockArrayEn[i];
+      } else {
+        element.textContent = capsLockArrayRu[i];
+      }
       // eslint-disable-next-line no-param-reassign
       if (element.id === 'Shift' || element.id === 'Shift1') element.textContent = 'Shift';
       // eslint-disable-next-line no-param-reassign
@@ -117,8 +239,12 @@ const pressHandler = (e) => {
       if (element.id === 'Space') element.textContent = ' ';
     }
     if (e.shiftKey && !capsState) {
-      // eslint-disable-next-line no-param-reassign
-      element.textContent = shiftArrayEn[i];
+      if (keyboardLang === 'en') {
+        // eslint-disable-next-line no-param-reassign
+        element.textContent = shiftArrayEn[i];
+      } else {
+        element.textContent = shiftArrayRu[i];
+      }
       // eslint-disable-next-line no-param-reassign
       if (element.id === 'Shift' || element.id === 'Shift1') element.textContent = 'Shift';
       // eslint-disable-next-line no-param-reassign
@@ -137,15 +263,42 @@ const pressHandler = (e) => {
       && element.id !== 'AltL'
       && element.id !== 'AltR'
       && element.id !== 'Win'
-      && element.id !== 'Space'
       && element.id !== 'Backspace'
       && element.id !== 'Del'
       && element.id !== 'Enter'
-      && (element.textContent === e.key || element.id === e.key)
+      && (element.textContent === e.key || element.id === e.key || element.id.toUpperCase() === e.key)
       && e.type === 'keydown') {
       textArea.setRangeText(element.textContent, cursorPosition, cursorPosition, 'end');
     }
   });
+  if (e.key === 'Backspace' && e.type === 'keydown') {
+    if (cursorPosition > 0 && textArea.selectionStart === textArea.selectionEnd) {
+      textArea.value = textArea.value.slice(0, cursorPosition - 1)
+        + textArea.value.slice(cursorPosition, textArea.value.length);
+      textArea.selectionStart = cursorPosition - 1;
+      textArea.selectionEnd = cursorPosition - 1;
+    }
+    if (textArea.selectionStart !== textArea.selectionEnd) {
+      textArea.value = textArea.value.slice(0, textArea.selectionStart)
+        + textArea.value.slice(textArea.selectionEnd, textArea.value.length);
+      textArea.selectionStart = cursorPosition;
+      textArea.selectionEnd = cursorPosition;
+    }
+  }
+  if (e.key === 'Delete' && e.type === 'keydown') {
+    if (cursorPosition >= 0 && textArea.selectionStart === textArea.selectionEnd) {
+      textArea.value = textArea.value.slice(0, cursorPosition)
+        + textArea.value.slice(cursorPosition + 1, textArea.value.length);
+    }
+    if (textArea.selectionStart !== textArea.selectionEnd) {
+      textArea.value = textArea.value.slice(0, textArea.selectionStart)
+        + textArea.value.slice(textArea.selectionEnd, textArea.value.length);
+    }
+    textArea.selectionStart = cursorPosition;
+    textArea.selectionEnd = cursorPosition;
+  }
+  if (e.key === 'Tab' && e.type === 'keydown') textArea.setRangeText('\t', cursorPosition, cursorPosition, 'end');
+  if (e.key === 'Enter' && e.type === 'keydown') textArea.setRangeText('\n', cursorPosition, cursorPosition, 'end');
 };
 const clickHandler = (e) => {
   const textArea = document.getElementById('text-window');
@@ -179,20 +332,35 @@ const clickHandler = (e) => {
         && element.id !== 'Del'
         && element.id !== 'Enter') {
         if (capsState && !shiftState && e.target.id === 'CapsLock') {
-          // eslint-disable-next-line no-param-reassign
-          element.textContent = capsLockArrayEn[i];
+          if (keyboardLang === 'en') {
+            // eslint-disable-next-line no-param-reassign
+            element.textContent = capsLockArrayEn[i];
+          } else {
+            // eslint-disable-next-line no-param-reassign
+            element.textContent = capsLockArrayRu[i];
+          }
         }
         if (!capsState && !shiftState && e.target.id === 'CapsLock') {
-          // eslint-disable-next-line no-param-reassign
-          element.textContent = arr1[i];
+          if (keyboardLang === 'en') {
+            // eslint-disable-next-line no-param-reassign
+            element.textContent = enArr[i];
+          } else {
+            // eslint-disable-next-line no-param-reassign
+            element.textContent = ruArr[i];
+          }
         }
       }
     });
   }
   if ((e.target.id === 'Shift' || e.target.id === 'Shift1') && !capsState && e.type === 'mousedown') {
     allKey.forEach((element, i) => {
-      // eslint-disable-next-line no-param-reassign
-      element.textContent = shiftArrayEn[i];
+      if (keyboardLang === 'en') {
+        // eslint-disable-next-line no-param-reassign
+        element.textContent = shiftArrayEn[i];
+      } else {
+        // eslint-disable-next-line no-param-reassign
+        element.textContent = shiftArrayRu[i];
+      }
       // eslint-disable-next-line no-param-reassign
       if (element.id === 'Shift' || element.id === 'Shift1') element.textContent = 'Shift';
       // eslint-disable-next-line no-param-reassign
@@ -205,8 +373,13 @@ const clickHandler = (e) => {
   }
   if ((e.target.id === 'Shift' || e.target.id === 'Shift1') && !capsState && e.type === 'mouseup') {
     allKey.forEach((element, i) => {
-      // eslint-disable-next-line no-param-reassign
-      element.textContent = arr1[i];
+      if (keyboardLang === 'en') {
+        // eslint-disable-next-line no-param-reassign
+        element.textContent = enArr[i];
+      } else {
+        // eslint-disable-next-line no-param-reassign
+        element.textContent = ruArr[i];
+      }
       // eslint-disable-next-line no-param-reassign
       if (element.id === 'Shift' || element.id === 'Shift1') element.textContent = 'Shift';
       // eslint-disable-next-line no-param-reassign
@@ -219,8 +392,13 @@ const clickHandler = (e) => {
   }
   if ((e.target.id === 'Shift' || e.target.id === 'Shift1') && capsState && e.type === 'mousedown') {
     allKey.forEach((element, i) => {
-      // eslint-disable-next-line no-param-reassign
-      element.textContent = shiftCapsArrayEn[i];
+      if (keyboardLang === 'en') {
+        // eslint-disable-next-line no-param-reassign
+        element.textContent = shiftCapsArrayEn[i];
+      } else {
+        // eslint-disable-next-line no-param-reassign
+        element.textContent = shiftCapsArrayRu[i];
+      }
       // eslint-disable-next-line no-param-reassign
       if (element.id === 'Shift' || element.id === 'Shift1') element.textContent = 'Shift';
       // eslint-disable-next-line no-param-reassign
@@ -233,8 +411,13 @@ const clickHandler = (e) => {
   }
   if ((e.target.id === 'Shift' || e.target.id === 'Shift1') && capsState && e.type === 'mouseup') {
     allKey.forEach((element, i) => {
-      // eslint-disable-next-line no-param-reassign
-      element.textContent = capsLockArrayEn[i];
+      if (keyboardLang === 'en') {
+        // eslint-disable-next-line no-param-reassign
+        element.textContent = capsLockArrayEn[i];
+      } else {
+        // eslint-disable-next-line no-param-reassign
+        element.textContent = capsLockArrayRu[i];
+      }
       // eslint-disable-next-line no-param-reassign
       if (element.id === 'Shift' || element.id === 'Shift1') element.textContent = 'Shift';
       // eslint-disable-next-line no-param-reassign
@@ -254,13 +437,40 @@ const clickHandler = (e) => {
     && e.target.id !== 'AltL'
     && e.target.id !== 'AltR'
     && e.target.id !== 'Win'
-    && e.target.id !== 'Space'
     && e.target.id !== 'Backspace'
     && e.target.id !== 'Del'
     && e.target.id !== 'Enter'
     && e.type === 'mousedown') {
     textArea.setRangeText(e.target.textContent, cursorPosition, cursorPosition, 'end');
   }
+  if (e.target.id === 'Backspace' && e.type === 'mousedown') {
+    if (cursorPosition > 0 && textArea.selectionStart === textArea.selectionEnd) {
+      textArea.value = textArea.value.slice(0, cursorPosition - 1)
+        + textArea.value.slice(cursorPosition, textArea.value.length);
+      textArea.selectionStart = cursorPosition - 1;
+      textArea.selectionEnd = cursorPosition - 1;
+    }
+    if (textArea.selectionStart !== textArea.selectionEnd) {
+      textArea.value = textArea.value.slice(0, textArea.selectionStart)
+        + textArea.value.slice(textArea.selectionEnd, textArea.value.length);
+      textArea.selectionStart = cursorPosition;
+      textArea.selectionEnd = cursorPosition;
+    }
+  }
+  if (e.target.id === 'Del' && e.type === 'mousedown') {
+    if (cursorPosition >= 0 && textArea.selectionStart === textArea.selectionEnd) {
+      textArea.value = textArea.value.slice(0, cursorPosition)
+        + textArea.value.slice(cursorPosition + 1, textArea.value.length);
+    }
+    if (textArea.selectionStart !== textArea.selectionEnd) {
+      textArea.value = textArea.value.slice(0, textArea.selectionStart)
+        + textArea.value.slice(textArea.selectionEnd, textArea.value.length);
+    }
+    textArea.selectionStart = cursorPosition;
+    textArea.selectionEnd = cursorPosition;
+  }
+  if (e.target.id === 'Tab' && e.type === 'mousedown') textArea.setRangeText('\t', cursorPosition, cursorPosition, 'end');
+  if (e.target.id === 'Enter' && e.type === 'mousedown') textArea.setRangeText('\n', cursorPosition, cursorPosition, 'end');
 };
 window.addEventListener('keydown', pressHandler);
 window.addEventListener('keyup', pressHandler);
@@ -272,27 +482,56 @@ const createFirst = () => {
   textWindow.id = 'text-window';
   const keyboard = document.createElement('div');
   keyboard.classList.add('keyboard__wrapper');
-  arr1.forEach(el => {
-    const key = document.createElement('div');
-    key.classList.add('key', el);
-    key.id = el;
-    key.textContent = el;
-    if (el === 'Shift' || el === 'Shift1') key.textContent = 'Shift';
-    if (el === 'CtrlL' || el === 'CtrlR') key.textContent = 'Ctrl';
-    if (el === 'AltL' || el === 'AltR') key.textContent = 'Alt';
-    if (el === 'Space') key.textContent = ' ';
-    if (el === '←') key.id = 'ArrowLeft';
-    if (el === '↑') key.id = 'ArrowUp';
-    if (el === '↓') key.id = 'ArrowDown';
-    if (el === '→') key.id = 'ArrowRight';
-    key.addEventListener('mousedown', clickHandler);
-    key.addEventListener('mouseup', clickHandler);
-    keyboard.append(key);
-  });
+  if (keyboardLang === 'en') {
+    enArr.forEach(el => {
+      const key = document.createElement('div');
+      if (el === 'Shift' || el === 'Shift1'
+        || el === 'Backspace' || el === 'Enter'
+        || el === 'Space' || el === 'CapsLock') {
+        key.classList.add('key', el);
+      } else key.classList.add('key');
+      key.id = el;
+      key.textContent = el;
+      if (el === 'Shift' || el === 'Shift1') key.textContent = 'Shift';
+      if (el === 'CtrlL' || el === 'CtrlR') key.textContent = 'Ctrl';
+      if (el === 'AltL' || el === 'AltR') key.textContent = 'Alt';
+      if (el === 'Space') key.textContent = ' ';
+      if (el === '←') key.id = 'ArrowLeft';
+      if (el === '↑') key.id = 'ArrowUp';
+      if (el === '↓') key.id = 'ArrowDown';
+      if (el === '→') key.id = 'ArrowRight';
+      key.addEventListener('mousedown', clickHandler);
+      key.addEventListener('mouseup', clickHandler);
+      keyboard.append(key);
+    });
+  } else {
+    ruArr.forEach((el, i) => {
+      const key = document.createElement('div');
+      if (el === 'Shift' || el === 'Shift1'
+        || el === 'Backspace' || el === 'Enter'
+        || el === 'Space' || el === 'CapsLock') {
+        key.classList.add('key', el);
+      } else key.classList.add('key');
+      key.id = enArr[i];
+      key.textContent = el;
+      if (el === 'Shift' || el === 'Shift1') key.textContent = 'Shift';
+      if (el === 'CtrlL' || el === 'CtrlR') key.textContent = 'Ctrl';
+      if (el === 'AltL' || el === 'AltR') key.textContent = 'Alt';
+      if (el === 'Space') key.textContent = ' ';
+      if (el === '←') key.id = 'ArrowLeft';
+      if (el === '↑') key.id = 'ArrowUp';
+      if (el === '↓') key.id = 'ArrowDown';
+      if (el === '→') key.id = 'ArrowRight';
+      key.addEventListener('mousedown', clickHandler);
+      key.addEventListener('mouseup', clickHandler);
+      keyboard.append(key);
+    });
+  }
+
   const span = document.createElement('span');
   span.textContent = 'Клавиатура создана в операционной системе Windows';
   const span1 = document.createElement('span');
-  span1.textContent = 'Для переключения языка комбинация: левыe alt + shift';
+  span1.textContent = 'Для переключения языка комбинация: левыe alt + ctrl';
   body.append(textWindow, keyboard, span, span1);
 };
 
