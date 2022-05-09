@@ -76,11 +76,17 @@ body .keyboard__wrapper .CapsLock:after {
   margin-top: -70px;
   color: #868686;
 }
-body .keyboard__wrapper .Shift {
-  max-width: 130px;
+body .keyboard__wrapper .ShiftLeft {
+  max-width: 180px;
 }
-body .keyboard__wrapper .Shift1 {
-  max-width: 60px;
+body .keyboard__wrapper .ShiftRight {
+  max-width: 80px;
+}
+body .text-style {
+  padding-top: 20px;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  color: #3c3ce7;
 }
 
 /*# sourceMappingURL=style.css.map */
