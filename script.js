@@ -1,43 +1,48 @@
 let enArr = ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
   'Tab', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', '\\', 'Del',
   'CapsLock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", 'Enter',
-  'Shift', '\\', 'z', 'x', 'c', 'v', 'b', 'n', 'm', '.', ',', '/', '↑', 'Shift1',
+  'Shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', '.', ',', '/', '↑', 'Shift1',
   'CtrlL', 'Win', 'AltL', 'Space', 'AltR', 'CtrlR', '←', '↓', '→'];
 let shiftArrayEn = ['~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', 'Backspace',
   'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{', '}', '|', 'Del',
   'CapsLock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':', '"', 'Enter',
-  'Shift', '|', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<', '>', '?', '↑', 'Shift',
+  'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<', '>', '?', '↑', 'Shift',
   'CtrlL', 'Win', 'AltL', 'Space', 'AltR', 'CtrlR', '←', '↓', '→'];
 let capsLockArrayEn = ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
   'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '[', ']', '\\', 'Del',
   'CapsLock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':', '"', 'Enter',
-  'Shift', '\\', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '.', ',', '/', '↑', 'Shift',
+  'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '.', ',', '/', '↑', 'Shift',
   'CtrlL', 'Win', 'AltL', 'Space', 'AltR', 'CtrlR', '←', '↓', '→'];
 let shiftCapsArrayEn = ['~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', 'Backspace',
   'Tab', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '{', '}', '|', 'Del',
   'CapsLock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ':', '"', 'Enter',
-  'Shift', '|', 'z', 'x', 'c', 'v', 'b', 'n', 'm', '<', '>', '?', '↑', 'Shift',
+  'Shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', '<', '>', '?', '↑', 'Shift',
   'CtrlL', 'Win', 'AltL', 'Space', 'AltR', 'CtrlR', '←', '↓', '→'];
 let ruArr = ['ё', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
   'Tab', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', '[', ']', '\\', 'Del',
   'CapsLock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'Enter',
-  'Shift', '\\', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '/', '↑', 'Shift1',
+  'Shift', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '/', '↑', 'Shift1',
   'CtrlL', 'Win', 'AltL', 'Space', 'AltR', 'CtrlR', '←', '↓', '→'];
 let shiftCapsArrayRu = ['ё', '!', '"', '№', ';', '%', ':', '?', '*', '(', ')', '_', '+', 'Backspace',
   'Tab', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', '/', 'Del',
   'CapsLock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'Enter',
-  'Shift', '/', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', ',', '↑', 'Shift',
+  'Shift', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', ',', '↑', 'Shift',
   'CtrlL', 'Win', 'AltL', 'Space', 'AltR', 'CtrlR', '←', '↓', '→'];
 let shiftArrayRu = ['Ё', '!', '"', '№', ';', '%', ':', '?', '*', '(', ')', '_', '+', 'Backspace',
   'Tab', 'Й', 'Ц', 'У', 'К', 'Е', 'Н', 'Г', 'Ш', 'Щ', 'З', 'Х', 'Ъ', '/', 'Del',
   'CapsLock', 'Ф', 'Ы', 'В', 'А', 'П', 'Р', 'О', 'Л', 'Д', 'Ж', 'Э', 'Enter',
-  'Shift', '/', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю', ',', '↑', 'Shift',
+  'Shift', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю', ',', '↑', 'Shift',
   'CtrlL', 'Win', 'AltL', 'Space', 'AltR', 'CtrlR', '←', '↓', '→'];
 let capsLockArrayRu = ['Ё', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
   'Tab', 'Й', 'Ц', 'У', 'К', 'Е', 'Н', 'Г', 'Ш', 'Щ', 'З', 'Х', 'Ъ', '\\', 'Del',
   'CapsLock', 'Ф', 'Ы', 'В', 'А', 'П', 'Р', 'О', 'Л', 'Д', 'Ж', 'Э', 'Enter',
-  'Shift', '\\', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю', ',', '↑', 'Shift',
+  'Shift', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю', ',', '↑', 'Shift',
   'CtrlL', 'Win', 'AltL', 'Space', 'AltR', 'CtrlR', '←', '↓', '→'];
+let keyCodeArray = ['Backquote', 'Digit1', 'Digit2', 'Digit3', 'Digit4', 'Digit5', 'Digit6', 'Digit7', 'Digit8', 'Digit9', 'Digit0', 'Minus', 'Equal', 'Backspace',
+  'Tab', 'KeyQ', 'KeyW', 'KeyE', 'KeyR', 'KeyT', 'KeyY', 'KeyU', 'KeyI', 'KeyO', 'KeyP', 'BracketLeft', 'BracketRight', 'Backslash', 'Delete',
+  'CapsLock', 'KeyA', 'KeyS', 'KeyD', 'KeyF', 'KeyG', 'KeyH', 'KeyJ', 'KeyK', 'KeyL', 'Semicolon', 'Quote', 'Enter',
+  'ShiftLeft', 'KeyZ', 'KeyX', 'KeyC', 'KeyV', 'KeyB', 'KeyN', 'KeyM', 'Period', 'Comma', 'Slash', 'ArrowUp', 'ShiftRight',
+  'ControlLeft', 'MetaLeft', 'AltLeft', 'Space', 'AltRight', 'ControlRight', 'ArrowLeft', 'ArrowDown', 'ArrowRight'];
 let keyboardLang = localStorage.getItem('keyboardLanguage') || 'en';
 let shiftState = false;
 let capsState = false;
@@ -56,46 +61,10 @@ const pressHandler = (e) => {
     } else keyboardLang = 'en';
   }
   allKey.forEach((element, i) => {
-    if ((e.key === element.id || e.key === element.id.toUpperCase()) && e.type === 'keydown' && element.id !== 'CapsLock') {
+    if (element.classList.contains(e.code) && e.type === 'keydown' && !element.classList.contains('CapsLock')) {
       element.classList.add('active');
     }
-    if ((e.code === 'ControlLeft') && element.id === 'CtrlL' && e.type === 'keydown') {
-      element.classList.add('active');
-    }
-    if (e.code === 'ControlLeft' && element.id === 'CtrlL' && e.type === 'keyup') {
-      element.classList.remove('active');
-    }
-    if ((e.code === 'MetaLeft') && element.id === 'Win' && e.type === 'keydown') {
-      element.classList.add('active');
-    }
-    if (e.code === 'MetaLeft' && element.id === 'Win' && e.type === 'keyup') {
-      element.classList.remove('active');
-    }
-    if ((e.code === 'AltLeft') && element.id === 'AltL' && e.type === 'keydown') {
-      element.classList.add('active');
-    }
-    if (e.code === 'AltLeft' && element.id === 'AltL' && e.type === 'keyup') {
-      element.classList.remove('active');
-    }
-    if ((e.code === 'AltRight') && element.id === 'AltR' && e.type === 'keydown') {
-      element.classList.add('active');
-    }
-    if (e.code === 'AltRight' && element.id === 'AltR' && e.type === 'keyup') {
-      element.classList.remove('active');
-    }
-    if ((e.code === 'Space') && element.id === 'Space' && e.type === 'keydown') {
-      element.classList.add('active');
-    }
-    if (e.code === 'Space' && element.id === 'Space' && e.type === 'keyup') {
-      element.classList.remove('active');
-    }
-    if ((e.code === 'ControlRight') && element.id === 'CtrlR' && e.type === 'keydown') {
-      element.classList.add('active');
-    }
-    if (e.code === 'ControlRight' && element.id === 'CtrlR' && e.type === 'keyup') {
-      element.classList.remove('active');
-    }
-    if ((e.key === element.id || e.key === element.id.toUpperCase()) && e.type === 'keyup' && element.id !== 'CapsLock') {
+    if (element.classList.contains(e.code) && e.type === 'keyup' && !element.classList.contains('CapsLock')) {
       element.classList.remove('active');
     }
     if (e.ctrlKey && e.altKey) {
@@ -114,28 +83,36 @@ const pressHandler = (e) => {
         && element.id !== 'Enter') {
         if (keyboardLang === 'ru') {
           if (!shiftState && !capsState) {
+            // eslint-disable-next-line no-param-reassign
             element.textContent = ruArr[i];
           }
           if (shiftState && !capsState) {
+            // eslint-disable-next-line no-param-reassign
             element.textContent = shiftArrayRu[i];
           }
           if (!shiftState && capsState) {
+            // eslint-disable-next-line no-param-reassign
             element.textContent = capsLockArrayRu[i];
           }
           if (shiftState && capsState) {
+            // eslint-disable-next-line no-param-reassign
             element.textContent = shiftCapsArrayRu[i];
           }
         } else {
           if (!shiftState && !capsState) {
+            // eslint-disable-next-line no-param-reassign
             element.textContent = enArr[i];
           }
           if (shiftState && !capsState) {
+            // eslint-disable-next-line no-param-reassign
             element.textContent = shiftArrayEn[i];
           }
           if (!shiftState && capsState) {
+            // eslint-disable-next-line no-param-reassign
             element.textContent = capsLockArrayEn[i];
           }
           if (shiftState && capsState) {
+            // eslint-disable-next-line no-param-reassign
             element.textContent = shiftCapsArrayEn[i];
           }
         }
@@ -175,15 +152,19 @@ const pressHandler = (e) => {
           }
         } else {
           if (!shiftState && !capsState) {
+            // eslint-disable-next-line no-param-reassign
             element.textContent = ruArr[i];
           }
           if (shiftState && !capsState) {
+            // eslint-disable-next-line no-param-reassign
             element.textContent = shiftArrayRu[i];
           }
           if (!shiftState && capsState) {
+            // eslint-disable-next-line no-param-reassign
             element.textContent = capsLockArrayRu[i];
           }
           if (shiftState && capsState) {
+            // eslint-disable-next-line no-param-reassign
             element.textContent = shiftCapsArrayRu[i];
           }
         }
@@ -211,6 +192,7 @@ const pressHandler = (e) => {
         // eslint-disable-next-line no-param-reassign
         element.textContent = enArr[i];
       } else {
+        // eslint-disable-next-line no-param-reassign
         element.textContent = ruArr[i];
       }
       // eslint-disable-next-line no-param-reassign
@@ -227,6 +209,7 @@ const pressHandler = (e) => {
         // eslint-disable-next-line no-param-reassign
         element.textContent = capsLockArrayEn[i];
       } else {
+        // eslint-disable-next-line no-param-reassign
         element.textContent = capsLockArrayRu[i];
       }
       // eslint-disable-next-line no-param-reassign
@@ -243,6 +226,7 @@ const pressHandler = (e) => {
         // eslint-disable-next-line no-param-reassign
         element.textContent = shiftArrayEn[i];
       } else {
+        // eslint-disable-next-line no-param-reassign
         element.textContent = shiftArrayRu[i];
       }
       // eslint-disable-next-line no-param-reassign
@@ -266,8 +250,8 @@ const pressHandler = (e) => {
       && element.id !== 'Backspace'
       && element.id !== 'Del'
       && element.id !== 'Enter'
-      && (element.textContent === e.key || element.id === e.key || element.id.toUpperCase() === e.key)
-      && e.type === 'keydown') {
+      && e.type === 'keydown'
+      && element.classList.contains(e.code)) {
       textArea.setRangeText(element.textContent, cursorPosition, cursorPosition, 'end');
     }
   });
@@ -483,13 +467,9 @@ const createFirst = () => {
   const keyboard = document.createElement('div');
   keyboard.classList.add('keyboard__wrapper');
   if (keyboardLang === 'en') {
-    enArr.forEach(el => {
+    enArr.forEach((el, i) => {
       const key = document.createElement('div');
-      if (el === 'Shift' || el === 'Shift1'
-        || el === 'Backspace' || el === 'Enter'
-        || el === 'Space' || el === 'CapsLock') {
-        key.classList.add('key', el);
-      } else key.classList.add('key');
+      key.classList.add('key', keyCodeArray[i]);
       key.id = el;
       key.textContent = el;
       if (el === 'Shift' || el === 'Shift1') key.textContent = 'Shift';
@@ -507,11 +487,7 @@ const createFirst = () => {
   } else {
     ruArr.forEach((el, i) => {
       const key = document.createElement('div');
-      if (el === 'Shift' || el === 'Shift1'
-        || el === 'Backspace' || el === 'Enter'
-        || el === 'Space' || el === 'CapsLock') {
-        key.classList.add('key', el);
-      } else key.classList.add('key');
+      key.classList.add('key', keyCodeArray[i]);
       key.id = enArr[i];
       key.textContent = el;
       if (el === 'Shift' || el === 'Shift1') key.textContent = 'Shift';
@@ -529,8 +505,10 @@ const createFirst = () => {
   }
 
   const span = document.createElement('span');
+  span.classList.add('text-style');
   span.textContent = 'Клавиатура создана в операционной системе Windows';
   const span1 = document.createElement('span');
+  span1.classList.add('text-style');
   span1.textContent = 'Для переключения языка комбинация: левыe alt + ctrl';
   body.append(textWindow, keyboard, span, span1);
 };
